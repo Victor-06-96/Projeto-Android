@@ -1,0 +1,125 @@
+
+@font-face {
+    font-family: "idroid";
+    src: url("fontes/idroid.otf") format("opentype");
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+}
+
+header {
+    background-image: linear-gradient(to top, rgb(1, 24, 13), rgb(22, 153, 81), rgb(120, 230, 165));
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    text-align: center;
+}
+
+nav > a {
+    padding: 10px;
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    background-color: rgb(57, 126, 80);
+    transition-duration: .5s;
+}
+
+p {
+    text-indent: 20px;
+    padding: 5px;
+}
+
+.cor {
+    font-family: idroid, time;
+    color: rgb(5, 61, 5);
+}
+
+.detalhe {
+    background-image: linear-gradient(to left, transparent, #83e1ad);
+    font-size: 25px;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    min-width: 320px;
+    max-width: 1000px;
+}
+
+img {
+    width: 100%;
+}
+
+#bugd {
+    width: 35%;
+}
+
+#list {
+    padding-bottom: 5px;
+    background-color: rgb(203, 241, 229);
+    border-radius: 10px;
+}
+
+.tipeclass { 
+    background-color: rgb(1, 19, 2);
+    height: auto;
+    position: relative;
+    padding: 20px;
+    padding-bottom: 55%;
+}
+/*qualquer dúvida sobre esta parte da página. consultar aula 42 do segundo módulo do guanabara*/
+.tipeclass > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+#list h3 {
+    background-color: rgb(21, 145, 83);
+    color: white;
+    border-radius: 7px 7px 0px 0px;
+    padding: 5px;
+}
+
+ul {
+    columns: 2;
+    text-decoration: underline;
+    padding-left: 50px;
+}
+
+footer {
+    margin: 20px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+/*
+método usado por mim, antes de ver o video ensinando
+
+@media (max-width: 1400px) {
+    iframe {width: 700px; height: 460px;}    
+ }
+ @media (max-width: 800px) {
+    iframe {width: 460px; height: 260px;}   
+ } */
